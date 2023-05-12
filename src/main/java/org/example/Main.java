@@ -1,7 +1,18 @@
 package org.example;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Calculadora calculadora = new Calculadora();
+        double resultado = calculadora.soma(10, 10);
+
+        if (resultado == 20) {
+            System.out.println("Funcionou!!");
+        } else {
+            System.out.println("NAO Funcionou!!");
+        }
+
     }
+
 }
